@@ -15,7 +15,7 @@ on:
       ssh:
         description: 'build-openwrt'
         required: false
-        default: 'ssh actions'
+        default: 'ssh'
 
 #使用专用按钮启动的时候把绿色按钮上面的ssh actions改成ssh可以开启SSH远程连接
 #这个连接会把选择的所有机型都一起开启SSH连接的,这个为一次性开启
