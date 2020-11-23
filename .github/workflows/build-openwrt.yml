@@ -14,7 +14,7 @@ on:
     inputs:
       ssh:
         description: 'build-openwrt'
-        required: true
+        required: false
         default: 'ssh'
 
 #使用专用按钮启动的时候把绿色按钮上面的ssh actions改成ssh可以开启SSH远程连接
